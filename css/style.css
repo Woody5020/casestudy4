@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+
+body {
+	font-family: "Roboto", "Noto Sans KR";
+}
+.start {
+	height: 100vh;
+	position: relative;
+}
+.start .top {
+	width: 100%;
+	position: absolute;
+}
+.start .top .top_inner {
+	height: 110px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 0 6vw;
+	position: relative;
+}
+.start .top .top_inner nav {
+	padding-right: 80px;
+}
+.start .top .top_inner nav ul {
+	display: flex;
+}
+.start .top .top_inner nav ul li a {
+	display: block;
+	padding: 0 8px;
+	line-height:20px;
+	font-size: 18.5px;
+	font-weight: 700;
+	color: #fff;
+}
+.start .top .top_inner a.tab {
+	position: absolute;
+	z-index: 10000;
+	right: 6vw;
+	top: 40px;
+}
+.slider {
+	height: 100vh;
+}
+.slider img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.slider .keytext {
+	position: absolute;
+	width: 1180px;
+	left: 15%;
+	top: 20%;
+}
+.slider .keytext strong {
+	display: block;
+	font-size: 45px;
+	color:#fff ;
+}
+.slider .keytext p {
+	margin-top: 30px;
+	display: block;
+	font-size: 20px;
+	color: #fff;
+}
+
+.sub .sub_inner {
+		background: url(/images/sub_background.jpg)no-repeat center center;
+		background-size: cover;
+		padding: 80px 0 200px;
+}
+.sub .sub_inner .sub_text {
+	text-align: center;
+	padding-top: 50px;
+}
+.sub .sub_inner .sub_text strong {
+	display: block;
+	font-size:25px ;
+	color: #888888;
+}
+.sub .sub_inner .sub_text p {
+	display: block;
+	font-size:32px ;
+	color: #000000;
+	padding-top: 10px;
+}
+.sub .sub_inner .content ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 1180px;
+	padding-top: 50px;
+}
+.sub .sub_inner .content ul li a.banner .desc {
+	width: 18vw;
+	height: 23vh;
+	background-color:#fff;
+	padding: 25px 16px;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+	top: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.sub .sub_inner .content ul li a.banner .desc strong {
+display: block;
+font-size: 19.5px;
+color: #222222;
+}
+.sub .sub_inner .content ul li a.banner .desc p {
+padding-top: 15px;
+display: block;
+font-size: 13px;
+color: #aaaaaa;
+}
+.sub .sub_inner .content ul li:nth-child(2) {
+	content: "";
+	margin-top: 130px;
+}
+.sub .sub_inner .content ul li a.banner .number {
+	padding: 5px;
+	background-color:#5c4444;
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	top: -15px;
+}
