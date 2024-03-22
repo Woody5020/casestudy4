@@ -86,7 +86,7 @@ body {
 }
 
 .sub .sub_inner {
-		background: url(/images/sub_background.jpg)no-repeat center center;
+		background: url(images/sub_background.jpg)no-repeat center center;
 		background-size: cover;
 		padding: 80px 0 200px;
 }
